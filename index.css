@@ -1,0 +1,53 @@
+#app{
+    height: 580px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#input-img{
+    border: 0.5px solid black;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px 0 gray;
+    margin: 20px;
+}
+
+#result{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 70%;
+    width: 80%;
+    border: 0.5px solid black;
+    box-shadow: 5px 5px 10px 0 gray;
+    border-radius: 10px;
+    overflow: scroll;
+    margin: 20px;
+}
+
+h3{
+    margin: 2px;
+}
+
+p{
+    margin: 2px;
+}
+
+img{
+    border-radius: 10px;
+    margin: 4px;
+}
+
+[id*="file-"]{
+    display: flex;
+    flex-direction: row;
+    border: 0.5px solid black;
+    border-radius: 10px;
+    width: 80%;
+    margin: 20px;
+}
+
+[id*="text-"]{
+    padding: 4px;
+}
